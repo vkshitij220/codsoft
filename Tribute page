@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admiration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Admiring [APJ Abdul Kalam]</h1>
+    </header>
+    <div class="container">
+        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F56%2F148856-004-2F59E2D9%2FAPJ-2008.jpg&tbnid=imVCCnMfpKce1M&vet=12ahUKEwiYjfD8vOiAAxWcz6ACHSCBC4EQMygCegQIARB4..i&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FA-P-J-Abdul-Kalam&docid=uU4QVbAZe7RjtM&w=342&h=450&q=abdul%20kalam&ved=2ahUKEwiYjfD8vOiAAxWcz6ACHSCBC4EQMygCegQIARB4" alt="[APJ Abdul Kalam]">
+        <h1 style="background-color: blue;">Qualities I Admire</h1>
+        <p style="background-color: aqua;">[Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931, to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. His father Jainulabdeen Marakayar was a boat owner and imam of a local mosque;[9] his mother Ashiamma was a housewife.[10][11][12][13] His father owned a ferry that took Hindu pilgrims back and forth between Rameswaram and the now uninhabited Dhanushkodi.[14][15] Kalam was the youngest of four brothers and one sister in his family.[16][17][18] His ancestors had been wealthy Marakayar traders and landowners, with numerous properties and large tracts of land. Marakayar are a Muslim ethnic group found in coastal Tamil Nadu and Sri Lanka who claim descent from Arab traders and local women. The family business had involved trading groceries between the mainland and the island and to and from Sri Lanka, as well as ferrying pilgrims between the mainland and Pamban. With the opening of the Pamban Bridge to the mainland in 1914, however, the businesses failed and the family fortune and properties were lost by the 1920s, apart from the ancestral home. The family was poverty-stricken by the time Kalam was born. As a young boy he had to sell newspapers to add to the family's meager income.]</p>
+        <h1 style="background-color: blue;">Achivements</h1>
+        <p style="background-color: aquamarine;">[He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[2][3][4] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.]</p>
+    </div>
+</body>
+</html>
