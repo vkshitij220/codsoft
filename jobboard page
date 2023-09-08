@@ -1,0 +1,30 @@
+// src/components/Home.js
+
+import React, { useEffect, useState } from 'react';
+import JobListing from './JobListing'; // You would need to create this component
+
+function Home() {
+  const [featuredJobs, setFeaturedJobs] = useState([]);
+
+  useEffect(() => {
+    // Fetch featured job listings from the backend API
+    fetch('/api/featured-jobs')
+      .then((response) => response.json())
+      .then((data) => setFeaturedJobs(data))
+      .catch((error) => console.error('Error fetching featured jobs:', error));
+  }, []);
+
+  return (
+    <div>
+      <h1>Welcome to the Job Board!</h1>
+      <h2>Featured Job Listings</h2>
+      <div className="featured-job-listings">
+        {featuredJobs.map((job) => (
+          <JobListing key={job.id} job={job} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Home;
