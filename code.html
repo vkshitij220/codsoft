@@ -2,277 +2,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website Design</title>
-    <!-- css file  -->
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="utlits.css"> -->
-    <!-- font awesome cdn  -->
-    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Landing Platform</title>
 </head>
 
+
 <body>
-    <!-- header section start  -->
-    <header>
-        <div class="head-section layout">
-            <div class="nav-bar flex space-between align-center">
-                <div class="logo uppercase f-w-700 letter-spacing2"><span>Kshitij</span> Verma</div>
-                <div class="nav-links">
+  <nav>
+    <div class="nav__logo"><a href="#"> Booking.com</a></div>
+    <ul class="nav__links">
+      <li class="link">Home</li>
+      <li class="link">Services</li>
+      <li class="link">Contacts</li>
+    </ul>
+  </nav>
+  <header>
+    <div class="section__container">
+      <div class="header__content">
+        <h1>HotelBooking</h1>
 
-                    <ul class="flex f-w-600">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+        <p>
+          Booking.com has a wide range of luxury and budget-friendly hotel chain properties.
+           We have picked the finest
+          hotels in India with world-class amenities.
+          We bring you not only a stay option, but an experience in your budget to enjoy the luxury.
+          <br>
+          <button>Search Hotels</button>
+      </div>
+    </div>
+  </header>
 
-                <button class="btn hire-me-btn">Hire Me</button>
-
-                <input type="checkbox" name="checkbox" id="click">
-                <label for="click" class="menu-btn" id="menu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-            </div>
-            <!-- content  -->
-            <div class="content flex align-center">
-                <!-- left section  -->
-                <div class="left flex2">
-                    <h4 class="uppercase letter-spacing2">I'm <span>Kshitij</span> </h4>
-                    <h2 class="my-t-10 uppercase letter-spacing2 f-w-700">Web Designer</h2>
-                    <p class="my-t-10">I am a Front-End Web Developer <span></span> </p>
-                    <button class="btn btn2 my-t-20"><a href="/assets/Resume.pdf" target="_main"> Resume</a></button>
-                </div>
-
-                <!-- right section  -->
-                <div class="right flex3">
-                    <img src="assets/main-img.png" alt="Boy png" height="about-content">
-                    <div class="color-box"></div>
-                </div>
-            </div>
+  <section class="journey__container">
+    <div class="section__container">
+      <h2 class="section__title">Our Top Hotel Chains</h2>
+      <p class="section__subtitle">Popular destinations </p>
+      <div class="journey__grid">
+        <div class="country__card">
+          <img src="assets/country-1.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Santorini, Greece</span>
+          </div>
         </div>
-    </header>
-    <!-- about section start  -->
-    <section class="about-me-sec">
-        <div class="about-sec layout">
-            <h3 class="uppercase pd-t-30 text-center">About Me</h3>
-            <hr class="w55 my-t-10">
-
-            <div class="about-content flex justify-center align-center">
-                <!-- left side  -->
-                <div class="left flex2">
-                    <h2 class="uppercase letter-spacing2">Web Developer</h2>
-                    <p class="my-t-10">An undergraduate from Galgotias College of Engineering and technology Greater Noida U.P., with a
-                        Bachelor of Technology in Electrical and Electronics.
-                        As a firm believer of the collaborative approach, I excel at working in teams, where I aspire to
-                        pick up new skills,
-                        develop an empathetic and transparent work ethic and take new challenges head-on.
-                        I motivate myself to work harder the next day, help foster a culture of flexibility and welcome
-                        ingenuity.
-                        My peers have always referred to me as goal-oriented individual, driven by desire to go the
-                        extra mile, with an eye on the bigger picture.</p>
-                        <div class="icons">
-                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        </div>
-                    </div>
-
-                    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-                    <br>
-
-                </div>
-                <button class="btn my-t-20">Hire Me</button>
-
-                <!-- right side  -->
-                <!-- <div class="right flex3">
-                    <img src="asset/about me img.png" alt="">
-                    <hr> -->
-
-                <!-- color used  -->
-                <!-- <div class="dot-color text-center my-t-10">
-                        <h3>color used</h3>
-                        <span class="dot dot-w"></span>
-                        <span class="dot dot-b"></span>
-                        <span class="dot dot-ws"></span>
-                        <span class="dot dot-bs"></span>
-                        <span class="dot dot-a"></span>
-                    </div> -->
-            </div>
+        <div class="country__card">
+          <img src="assets/country-2.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Vernazza, Italy</span>
+          </div>
         </div>
+        <div class="country__card">
+          <img src="assets/country-3.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>San Francisco</span>
+          </div>
         </div>
-    </section>
-    <!-- about section end  -->
-
-    <!-- portfolio section start  -->
-    <section class="portfolio-sec">
-        <div class="portfolio layout">
-            <h3 class="uppercase text-center pd-30">Projects</h3>
-            <div class="portolio-parent flex justify-center align-center text-center">
-                <div class="portfolio-child">
-                    <img src="asset/digial marketing.jpg" alt="">
-                    <h3>MedwinCares Website</h3>
-                    <p>Frontend project of developing the webpage of medical hospital including complete
-                        database information and appointment enquiry using <B>HTML, CSS</B>
-                    </p>
-                    <button class="btn btn2">Explore More</button>
-                </div>
-
-                <div class="portfolio-child">
-                    <img src="asset/food-burger.jpg" alt="">
-                    <h3>Weather App
-                    </h3>
-                    <p>
-                        Frontend project to fetch Rest API using API access key to get details of weather in different
-                        states of the country using <b>HTML, CSS, Javascript, React JS</b>
-                    </p>
-                    <button class="btn btn2">Explore More</button>
-                </div>
-
-                <div class="portfolio-child">
-                    <img src="asset/social media.jpg" alt="">
-                    <h3>Banking System</h3>
-                    <p>
-                        Developed State Bank Of India Clone using <b>Java,Servlet</b> including Account Creation, Debit
-                        Credit, Check balance features, etc
-                    </p>
-                    <button class="btn btn2">Explore More</button>
-                </div>
-            </div>
+        <div class="country__card">
+          <img src="assets/country-4.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>navagio, Greece</span>
+          </div>
         </div>
-    </section>
-    <!-- portfolio section end  -->
-
-    <!-- experience section start  -->
-    <section class="experience-sec">
-        <div class="experience layout">
-            <h3 class="uppercase pd-30 text-center">Skills</h3>
-            <div class="experience-details flex space-between text-center">
-                <div class="col">
-                    <h3>HTML&CSS</h3>
-                    <!-- <p>Complete Website</p> -->
-                </div>
-
-                <div class="col">
-                    <h3>JavaScript</h3>
-                    <!-- <p>Landing Page</p> -->
-                </div>
-
-                <div class="col">
-                    <h3>ReactJS</h3>
-                    <!-- <p>Client</p> -->
-                </div>
-
-                <div class="col">
-                    <h3>NodeJS</h3>
-                    <!-- <p>Youtube Videos</p> -->
-                </div>
-                <div class="col">
-                    <h3>Java</h3>
-                    <!-- <p>Youtube Videos</p> -->
-                </div>
-
-            </div>
+        <div class="country__card">
+          <img src="assets/country-5.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Ao Nang, Thailand</span>
+          </div>
         </div>
-    </section>
-    <!-- experience section end  -->
-
-    <!-- testimonal section start  -->
-    <!-- <section class="testimonial-sec">
-        <div class="testimonial layout">
-            <h3 class="uppercase text-center pd-30">Testimonial</h3>
-            <div class="testimonial-parent flex space-between align-center">
-                <div class="testimonial-child">
-                    <img src="asset/user001.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sapiente esse, placeat quaerat expedita modi.</p>
-                    <div class="review-sec flex space-between">
-                        <div class="icon-sec">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="name-sec text-center">
-                            <h4>Danise Janson</h4>
-                            <p class="designation">Senior Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-child">
-                    <img src="asset/user002.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sapiente esse, placeat quaerat expedita modi.</p>
-                    <div class="review-sec flex space-between">
-                        <div class="icon-sec">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="name-sec text-center">
-                            <h4>Lauren Scott</h4>
-                            <p class="designation">Managing Director</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-child">
-                    <img src="asset/user003.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sapiente esse, placeat quaerat expedita modi.</p>
-                    <div class="review-sec flex space-between">
-                        <div class="icon-sec">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="name-sec text-center">
-                            <h4>Nicole Fusaro</h4>
-                            <p class="designation">HR Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="country__card">
+          <img src="assets/country-6.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Phi Phi Island, Thailand</span>
+          </div>
         </div>
-    </section> -->
-    <!-- testimonal section end -->
+      </div>
+    </div>
+  </section>
 
-    <!-- contact-us section start  -->
-    <section class="contact-us-sec">
-        <div class="contact-us layout">
-            <h3 class="text-center uppercase pd-30">Contact us</h3>
-            <div class="contact-details flex space-between align-center">
-                <div class="left-sec">
-                    <h5>Main Branch</h5>
-                    <p>Galgotias College of engineering and technology <br> Greater Noida </p>
-                </div>
-                <div class="center-sec">
-                    <h5>Contact No.</h5>
-                    <p>Mobile No. +1234567890</p>
-                    <h5>Email Id</h5>
-                    <p>vkshitij220@gmail.com</p>
-                </div>
-                <div class="right-sec text-center">
-                    <form action="">
-                        Email : <input type="email" id="email-id"> <br>
-                        <button class="btn btn2">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact-us section end  -->
+  <section class="banner__container">
+    <div class="section__container">
+      <div class="banner__content">
+        <h2>Discount 10-30% Off</h2>
+        <p>
+          Cheapest Deals on Budget & Luxury Hotels are Available at Booking.com
+          Due to the huge influx of tourists in India, EaseMyTrip offers a wide range of luxury,
+          deluxe and budget hotels to them. 
+          Choose to stay in luxury and comfort with the greatest discounts available on hotel bookings.
+          Along with deluxe, budget and luxury hotels, 
+          Booking.com also displays a number of heritage hotels that offer you a royal stay.
+           Enjoy cheap hotel deals for any destination with great savings.
+        </p>
+        <button>See Tours</button>
+      </div>
+    </div>
+  </section>
 
-    <!-- footer section  -->
-    <footer>
-        <div class="footer-sec layout text-center">
-            <p>copyright &copy; All Right Reserved</p>
+  <section class="display__container">
+    <div class="section__container">
+      <h2 class="section__title">Why Choose Us</h2>
+      <p class="section__subtitle">
+        The gladdest moment in human life, is a departure into unknown lands.
+      </p>
+      <div class="display__grid">
+        <div class="display__card grid-1">
+          <img src="assets/grid-1.jpg" alt="grid" />
         </div>
-    </footer>
+        <div class="display__card">
+          <i class="ri-earth-line"></i>
+          <h4>Passionate Travel</h4>
+          <p>Fuel your passion for adventure and discover new horizons</p>
+        </div>
+        <div class="display__card">
+          <img src="assets/grid-2.jpg" alt="grid" />
+        </div>
+        <div class="display__card">
+          <img src="assets/grid-3.jpg" alt="grid" />
+        </div>
+        <div class="display__card">
+          <i class="ri-road-map-line"></i>
+          <h4>Beautiful Places</h4>
+          <p>Uncover the world's most breathtakingly beautiful places</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="section__container">
+      <h4>Booking.com</h4>
+      <div class="social__icons">
+        <span><i class="ri-facebook-fill"></i></span>
+        <span><i class="ri-twitter-fill"></i></span>
+        <span><i class="ri-instagram-line"></i></span>
+        <span><i class="ri-linkedin-fill"></i></span>
+      </div>
+      <p>
+        Booking.com offers 'End to End' travel solutions including air tickets for more than 400 international 
+        and domestic airlines, hotel bookings for nearly 1 million hotels in India and abroad,
+         cab booking with 4000+ cab operators, 
+        bus tickets with 2000+ bus operators, and 
+        railway tickets in India for all major cities.
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
